@@ -1,0 +1,115 @@
+.bottom-section {
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
+  right: 5%;
+  z-index: 1000;
+  background-color: white;
+  border-top: 1px solid #e0e0e0;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 40px 40px 0 0;
+  max-height: 40%;
+  overflow-y: auto;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Adjusted transition for smoother animation */
+}
+
+/* Example styles for h2 with shadow */
+h2 {
+  font-family: Arial, sans-serif; /* Specify your desired font family */
+  font-size: 1.5em; /* Adjust the font size as needed */
+  font-weight: bold; /* Optionally adjust the font weight */
+  color: #333; /* Adjust the color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  /* Add any other desired styles */
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2px 16px;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Adjusted transition for smoother animation */
+  max-height: 500px; /* Adjust as needed for your content */
+  opacity: 1; /* Initial opacity */
+}
+
+.container.closed {
+  max-height: 0; /* Collapsed height */
+  opacity: 0; /* Hidden when closed */
+  padding: 0; /* Remove padding to hide content */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: calc(33.33% - 20px); /* Adjusted width for desktop/tablet screens */
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card .content {
+  padding: 10px;
+}
+
+.card .description {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px); /* Adjusted width for mobile screens to show two cards per row */
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px); /* Full width for very small screens to show one card per row */
+    margin: 10px 0;
+  }
+}
+
+.toggle-bar {
+  width: 70px;
+  height: 5px;
+  background-color: lightgray;
+  cursor: pointer;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 20px;
+  padding: auto;
+}
+
+.toggle-bar:hover {
+  background-color: gray;
+}
+
+/* Categary and Rating Filter */
+#rating {
+
+    
+    left: 50%;
+   
+    
+    max-width: 40rem;
+    
+    padding: 0; /* Remove padding for a seamless look */
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,109 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/* Map container */
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.leaflet-map {
+    height: 100%; /* Full container height */
+    width: 100%; /* Full container width */
+}
+
+/* Search container */
+.search-container {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    max-width: 40rem;
+    margin: 1rem auto;
+    padding: 0; /* Remove padding for a seamless look */
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input[type=text] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 0;
+    outline: none;
+}
+
+.search-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+/* location-button */
+.location-button {
+    background: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+.location-button:hover,
+.location-button:active {
+    background-color: initial;
+    color: #007bff;
+}
+
+.location-button:active {
+    opacity: .5;
+}
+
+
+
+/* Hide Leaflet zoom controls on mobile */
+@media (max-width: 768px) {
+    .leaflet-control-zoom {
+        display: none;
+    }
+
+    /* Adjust bottom section drawer */
+    .bottom-section {
+        margin: 0 10px; /* Add gap on both sides */
+    }
+}
+.navigate-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.navigate-button i {
+    margin-right: 8px;
+}

@@ -1,0 +1,170 @@
+{
+    "touristLocations": [
+      {
+        "id": 1,
+        "placeName": "Eiffel Tower",
+        "categary": "tourist",
+        "recommendatioin level": "3",
+        "cityName": "Paris",
+        "description": "An iconic symbol of France, the Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris.",
+        "latitude": 48.8584,
+        "longitude": 2.2945,
+        "image": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg"
+      },
+      {
+        "id": 2,
+        "placeName": "Statue of Liberty",
+        "categary": "tourist",
+        "recommendatioin level": "3",
+        "cityName": "New York",
+        "description": "A colossal neoclassical sculpture on Liberty Island in New York Harbor within New York City.",
+        "latitude": 40.6892,
+        "longitude": -74.0445,
+        "image": "https://images.pexels.com/photos/220128/pexels-photo-220128.jpeg"
+      },
+      {
+        "id": 3,
+        "placeName": "Colosseum",
+        "categary": "tourist",
+        "recommendatioin level": "4",
+        "cityName": "Rome",
+        "description": "An ancient amphitheater in the center of the city of Rome, Italy, and one of the greatest works of Roman architecture and engineering.",
+        "latitude": 41.8902,
+        "longitude": 12.4922,
+        "image": "https://images.pexels.com/photos/1205031/pexels-photo-1205031.jpeg"
+      },
+      {
+        "id": 4,
+        "placeName": "Big Ben",
+        "categary": "tourist",
+        "recommendatioin level": "3",
+        "cityName": "London",
+        "description": "Big Ben is the nickname for the Great Bell of the clock at the north end of the Palace of Westminster in London.",
+        "latitude": 51.5007,
+        "longitude": -0.1246,
+        "image": "https://images.pexels.com/photos/220232/pexels-photo-220232.jpeg"
+      },
+      {
+        "id": 5,
+        "placeName": "Alhambra",
+        "categary": "tourist",
+        "recommendatioin level": "3",
+        "cityName": "Granada",
+        "description": "The Alhambra is a palace and fortress complex located in Granada, Andalusia, Spain.",
+        "latitude": 37.1760,
+        "longitude": -3.5881,
+        "image": "https://images.pexels.com/photos/105439/pexels-photo-105439.jpeg"
+      },
+      {
+        "id": 6,
+        "placeName": "Badshahi Mosque",
+        "categary": "tourist",
+        "recommendatioin level": "2",
+        "cityName": "Lahore",
+        "description": "The Badshahi Mosque is a Mughal-era mosque in Lahore, Pakistan. It is the second-largest mosque in Pakistan and South Asia.",
+        "latitude": 31.5889,
+        "longitude": 74.3105,
+        "image": "https://images.pexels.com/photos/311093/pexels-photo-311093.jpeg"
+      },
+      {
+        "id": 7,
+        "placeName": "Sydney Opera House",
+        "categary": "tourist",
+        "recommendatioin level": "3",
+        "cityName": "Sydney",
+        "description": "A multi-venue performing arts centre in Sydney, New South Wales, Australia, and one of the 20th century's most famous and distinctive buildings.",
+        "latitude": -33.8568,
+        "longitude": 151.2153,
+        "image": "https://images.pexels.com/photos/245126/pexels-photo-245126.jpeg"
+      },
+      {
+        "id": 8,
+        "placeName": "Christ the Redeemer",
+        "categary": "tourist",
+        "recommendatioin level": "5",
+        "cityName": "Rio de Janeiro",
+        "description": "An iconic statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa.",
+        "latitude": -22.9519,
+        "longitude": -43.2105,
+        "image": "https://images.pexels.com/photos/236006/pexels-photo-236006.jpeg"
+      },
+      {
+        "id": 9,
+        "placeName": "Machu Picchu",
+        "categary": "tourist",
+        "recommendatioin level": "5",
+        "cityName": "Cusco",
+        "description": "An Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley.",
+        "latitude": -13.1631,
+        "longitude": -72.5450,
+        "image": "https://images.pexels.com/photos/1315782/pexels-photo-1315782.jpeg"
+      },
+      {
+        "id": 10,
+        "placeName": "Pyramids of Giza",
+        "categary": "tourist",
+        "recommendatioin level": "2",
+        "cityName": "Giza",
+        "description": "The Pyramids of Giza are ancient pyramid structures located on the Giza Plateau near Cairo, Egypt.",
+        "latitude": 29.9792,
+        "longitude": 31.1342,
+        "image": "https://images.pexels.com/photos/460824/pexels-photo-460824.jpeg"
+      },
+      {
+        "id": 11,
+        "placeName": "Santorini",
+        "categary": "tourist",
+        "recommendatioin level": "2",
+        "cityName": "Santorini",
+        "description": "A Greek island in the Aegean Sea known for its white-washed buildings with blue domes, beautiful sunsets, and stunning views.",
+        "latitude": 36.3932,
+        "longitude": 25.4615,
+        "image": "https://images.pexels.com/photos/227321/pexels-photo-227321.jpeg"
+      },
+      {
+        "id": 12,
+        "placeName": "Buckingham Palace",
+        "categary": "tourist",
+        "recommendatioin level": "3",
+        "cityName": "London",
+        "description": "Buckingham Palace is the London residence and administrative headquarters of the monarch of the United Kingdom.",
+        "latitude": 51.5014,
+        "longitude": -0.1419,
+        "image": "https://images.pexels.com/photos/531129/pexels-photo-531129.jpeg"
+      },
+      {
+        "id": 13,
+        "placeName": "Sagrada Familia",
+        "categary": "tourist",
+        "recommendatioin level": "1",
+        "cityName": "Barcelona",
+        "description": "The Basílica de la Sagrada Família is a large unfinished Roman Catholic minor basilica in Barcelona, Spain.",
+        "latitude": 41.4036,
+        "longitude": 2.1744,
+        "image": "https://images.pexels.com/photos/1179510/pexels-photo-1179510.jpeg"
+      },
+      {
+        "id": 14,
+        "placeName": "K2",
+        "categary": "tourist",
+        "recommendatioin level": "1",
+        "cityName": "Gilgit-Baltistan",
+        "description": "K2 is the second-highest mountain in the world, located on the China–Pakistan border.",
+        "latitude": 35.8825,
+        "longitude": 76.5133,
+        "image": "https://images.pexels.com/photos/313744/pexels-photo-313744.jpeg"
+      },
+      {
+        "id": 15,
+        "placeName": "Lahore Fort",
+        "categary": "tourist",
+        "recommendatioin level": "3",
+        "cityName": "Lahore",
+        "description": "The Lahore Fort is a citadel in the city of Lahore, Punjab, Pakistan. It is located in the northern part of the Walled City of Lahore.",
+        "latitude": 31.5883,
+        "longitude": 74.3136,
+        "image": "https://images.pexels.com/photos/479370/pexels-photo-479370.jpeg"
+      }
+    ]
+  }
+  
