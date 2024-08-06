@@ -44,7 +44,8 @@ const MapComponent = () => {
         const fetchData = async () => {
             try {
                 // Fetch data from the API
-                const response = await fetch('https://squid-app-ni9et.ondigitalocean.app/maps_graded');
+                const response = await fetch('http://localhost:3001/maps_graded');
+                // const response = await fetch('https://squid-app-ni9et.ondigitalocean.app/maps_graded');
                 
                 // Check if the response is OK
                 if (!response.ok) {
