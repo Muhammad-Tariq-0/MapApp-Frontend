@@ -18,7 +18,7 @@ const UserForm = () => {
         if (isSignIn) {
             // Sign-in logic
             try {
-                const response = await axios.get('http://localhost:3001/users');
+                const response = await axios.get('https://squid-app-ni9et.ondigitalocean.app/users');
                 const users = response.data;
 
                 if (Array.isArray(users)) {
@@ -46,7 +46,7 @@ const UserForm = () => {
         } else {
             // Check if user with email already exists
             try {
-                const response = await axios.get('http://localhost:3001/users');
+                const response = await axios.get('https://squid-app-ni9et.ondigitalocean.app/users');
                 const users = response.data;
 
                 if (Array.isArray(users)) {

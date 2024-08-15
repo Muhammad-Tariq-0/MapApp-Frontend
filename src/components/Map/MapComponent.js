@@ -43,7 +43,7 @@
 //     // Function to fetch POIs data
 //     const fetchPoitOfInterests = async () => {
 //         try {
-//             const response = await fetch('http://localhost:3001/pois');
+//             const response = await fetch('https://squid-app-ni9et.ondigitalocean.app/pois');
 //             if (!response.ok) {
 //                 throw new Error('Network response was not ok');
 //             }
@@ -57,7 +57,7 @@
 //     // Function to fetch other data (locations, etc.)
 //     const fetchLocations = async () => {
 //         try {
-//             const response = await fetch('http://localhost:3001/maps_graded');
+//             const response = await fetch('https://squid-app-ni9et.ondigitalocean.app/maps_graded');
 //             if (!response.ok) {
 //                 throw new Error('Network response was not ok');
 //             }
@@ -141,7 +141,7 @@
 //         };
 
 //         try {
-//              await axios.post('http://localhost:3001/pois', data, {
+//              await axios.post('https://squid-app-ni9et.ondigitalocean.app/pois', data, {
 //                 headers: {
 //                     'Content-Type': 'application/json',
 //                 }
@@ -170,7 +170,7 @@
 
 //     const handleDeletePointOfInterest = async (id) => {
 //         try {
-//              await axios.delete(`http://localhost:3001/pois/${id}`);
+//              await axios.delete(`https://squid-app-ni9et.ondigitalocean.app/pois/${id}`);
 //             Swal.fire({
 //                 position: "top-end",
 //                 icon: "success",
@@ -414,7 +414,7 @@ const MapComponent = () => {
     // Function to fetch POIs data
     const fetchPoitOfInterests = async () => {
         try {
-            const response = await fetch('http://localhost:3001/pois');
+            const response = await fetch('https://squid-app-ni9et.ondigitalocean.app/pois');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -428,7 +428,7 @@ const MapComponent = () => {
     // Function to fetch other data (locations, etc.)
     const fetchLocations = async () => {
         try {
-            const response = await fetch('http://localhost:3001/maps_graded');
+            const response = await fetch('https://squid-app-ni9et.ondigitalocean.app/maps_graded');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -513,7 +513,7 @@ const MapComponent = () => {
         };
 
         try {
-            await axios.post('http://localhost:3001/pois', data, {
+            await axios.post('https://squid-app-ni9et.ondigitalocean.app/pois', data, {
                 headers: {
                     'Content-Type': 'application/json',
                 }
@@ -535,7 +535,7 @@ const MapComponent = () => {
 
     const handleDeletePointOfInterest = async (id) => {
         try {
-            await axios.delete(`http://localhost:3001/pois/${id}`);
+            await axios.delete(`https://squid-app-ni9et.ondigitalocean.app/pois/${id}`);
             Swal.fire({
                 position: "top-end",
                 icon: "success",
