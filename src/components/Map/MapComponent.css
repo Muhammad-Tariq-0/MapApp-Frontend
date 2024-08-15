@@ -77,7 +77,10 @@
 .location-button:active {
     opacity: .5;
 }
-
+.details-button{
+    cursor: pointer;
+      color: blue;
+}
 
 
 /* Hide Leaflet zoom controls on mobile */

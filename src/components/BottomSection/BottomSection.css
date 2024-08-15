@@ -26,16 +26,44 @@ h2 {
   /* Add any other desired styles */
 }
 
-
+/* Vertical scrolling Cards */
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 2px 16px;
-  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Adjusted transition for smoother animation */
-  max-height: 500px; /* Adjust as needed for your content */
-  opacity: 1; /* Initial opacity */
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+  max-height: 500px;
+  opacity: 1; 
+  margin-bottom: 50px;
 }
+
+/* Horizontal scrolling Cards */
+/* .container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start; 
+  padding: 2px 16px;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; 
+  max-height: 500px;
+  opacity: 1; 
+  overflow-x: auto; 
+  overflow-y: hidden;
+  white-space: nowrap; 
+  width: 100%; 
+  box-sizing: border-box; 
+} */
+
+/* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 270px; 
+  height: 300px; 
+  margin: 10px;
+  flex-shrink: 0; 
+} */
+
+
 
 .container.closed {
   max-height: 0; /* Collapsed height */
@@ -46,7 +74,7 @@ h2 {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: calc(33.33% - 20px); /* Adjusted width for desktop/tablet screens */
+  width: calc(33.33% - 20px);
   margin: 10px;
 }
 
@@ -112,4 +140,27 @@ h2 {
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bottom menu */
+
+.bottom-menu-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Make sure it appears on top of other elements */
+}
+
+.bottom-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff; /* Background color of the menu */
+  border-top: 1px solid #ccc; /* Optional: adds a border at the top */
+  padding: 10px 0; /* Optional: adds padding for better spacing */
+}
+
+.bottom-menu div {
+  text-align: center;
+  flex: 1;
 }
